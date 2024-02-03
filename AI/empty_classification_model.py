@@ -5,7 +5,6 @@ import torchvision.transforms as transforms
 from torchvision.datasets import CIFAR10
 from torch.utils.data import DataLoader
 
-# Define the ResNet-18 model
 class BasicBlock(nn.Module):
     expansion = 1
 
