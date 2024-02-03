@@ -145,4 +145,15 @@ def train(epochs):
                 accuracy = accuracy/len(test_dataset)
                 print(f'Validation Loss: {val_loss:.4f}, Accuracy: {accuracy:.4f}')
 
+                if accuracy >= 0.98:
+                    print('Performance condition satisfied, stopping..')
+                    print("Saving the model")
+                    torch.save(model, 'mymodel.pt')
+                    return
+
+        train_loss /= (train_step + 1)
+
+        print(f'Training Loss: {train_loss:.4f}')
+    print('Training complete..')
+
 train(3)
