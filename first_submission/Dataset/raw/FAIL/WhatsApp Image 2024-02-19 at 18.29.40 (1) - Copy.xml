@@ -1,0 +1,26 @@
+<annotation>
+	<folder>untitled folder</folder>
+	<filename>WhatsApp Image 2024-02-19 at 18.29.40 (1).jpeg</filename>
+	<path>/Users/hissah/Desktop/flimg/untitled folder/WhatsApp Image 2024-02-19 at 18.29.40 (1).jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>960</width>
+		<height>1280</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fail image1</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>88</xmin>
+			<ymin>236</ymin>
+			<xmax>238</xmax>
+			<ymax>512</ymax>
+		</bndbox>
+	</object>
+</annotation>
