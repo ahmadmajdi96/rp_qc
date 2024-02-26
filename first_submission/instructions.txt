@@ -4,7 +4,7 @@
 4- pip install -r requirements.txt 
 5- cd first_submission
 6- run python code:
-for images augmentation new model: python3 aug.py
+for images augmentation: python3 aug.py
 for taining new model: python3 train.py
 
 Notes:
