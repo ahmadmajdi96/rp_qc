@@ -50,5 +50,5 @@ if __name__ == "__main__":
         for file in os.listdir(targer_path):
             print(f"Augmenting at {cls}")
             output_folder = f"Dataset/{cls}"
-            num_augmented_images_per_original = 100
+            num_augmented_images_per_original = 5
             augment_dataset(targer_path, output_folder, num_augmented_images_per_original)
