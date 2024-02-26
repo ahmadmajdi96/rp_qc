@@ -1,0 +1,12 @@
+1- open terminal 
+2- git clone https://github.com/ahmadmajdi96/rp_qc.git 
+3- cd rp_qc 
+4- pip install -r requirements.txt 
+5- cd first_submission
+6- run python code:
+for images augmentation new model: python3 aug.py
+for taining new model: python3 train.py
+
+Notes:
+1- when augmenting images add the new images to raw/FAIL & PASS directories and after running the code you will find the new images located in the Dataset/ FAIL & PASS directories
+2- when training a new model you wil find the new model as a .pt file with the name " mymodel.pt "
